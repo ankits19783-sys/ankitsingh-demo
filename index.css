@@ -17,12 +17,13 @@ body {
 #navbar a {
     height: 40px;
     width: 100px;
-    background-color: aqua;
+    background-color: rgb(230, 162, 190);;
     color: #000;
     text-decoration: none;
     text-transform: capitalize;
     display: flex;
     justify-content: center;
+
     align-items: center;
     font-weight: bolder;
     border-radius: 15px;
@@ -36,7 +37,7 @@ body {
 }
 #inp button {
       height: 28px;
-      background-color: aqua;
+      background-color:#9feeda;
       font-weight: bold;
       border-radius: 5px;
 }
