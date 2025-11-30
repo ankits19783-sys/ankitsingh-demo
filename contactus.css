@@ -1,0 +1,24 @@
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        body {
+            background-color: #a4f7c0;
+        }
+
+        #header {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 60px;
+            background-color: #5e8075;
+        }
+        #header h1 {
+            text-transform: capitalize;
+        }
+             /* main */
+        #aboutcontact {
+            margin-top: 40px;
+            margin-left:10px;
+        }
