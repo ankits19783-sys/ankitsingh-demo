@@ -97,4 +97,19 @@ body {
 #footer b {
     text-transform: capitalize;
     font-size: x-large;
-}        
+}   
+#img3 img {
+    height: 300px;
+
+}  
+
+#img3 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#img3defination {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
