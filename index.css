@@ -41,6 +41,7 @@ body {
 }
 #inp button {
       height: 28px;
+      width: 80px;
       background-color:#9feeda;
       font-weight: bold;
       border-radius: 5px;
