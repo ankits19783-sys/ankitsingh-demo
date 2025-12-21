@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>A KART</title>
+    <title>Document</title>
     <style>
         * {
             margin: 0;
@@ -53,11 +53,10 @@
             height: 400px;
 
         }
-        #main {
-            margin-top: 20px;
+        #img {
             display: flex;
             justify-content: center;
-            align-items: center;
+            margin-top: 30px;
         }
 
         #defination  {
@@ -74,41 +73,44 @@
             display: flex;
             justify-content: center;
         }
-        #button button {
+        #main #button button {
             height: 40px;
             width: 100px;
             background-color: #b7e1e4;
             font-weight: bold;
+            margin-top: 10px;
         }
+        
 
+  
     </style>
 </head>
 <body>
-    <header>
-        <div id="navbar">
-            <a href="index.html">home page</a>
+    <div id="cointener">
+        <div id="header">
+            <div id="navbar">
+                <a href="index.html">home page</a>
             <form action="/hello.php">
                 <input type="text" placeholder="search">
                 <button>search</button>
             </form>
+            </div>   
         </div>
-    </header>
-    <main>
         <div id="main">
-            <img src="https://rukminim2.flixcart.com/image/612/612/xif0q/t-shirt/n/c/m/m-52235201-puma-original-imagjvjd3quetewy.jpeg?q=70" alt="">
+           <div id="img">
+             <img src = "https://rukminim2.flixcart.com/image/612/612/xif0q/t-shirt/b/i/n/l-fmt377-arrowfs-skin-force-original-imahex7jcz6quq6f.jpeg?q=70" alt="cool img t-shirt">
+           </div>
+            <div id="defination">
+                <p>men's cool t-shirt </p>
+            </div>
+            <div id="button">
+                <a href="buy.html"><button>buy</button></a>
+            </div>
         </div>
-        <div id="defination">
-            <p>men's cool t-shirt at just 25$</p>
-        </div>
-        <div id="button">
-            <a href="buy.html"><button>Buy</button></a>
-        </div>
-    </main>
-    <footer>
         <div id="footer">
-                       
+
         </div>
-    </footer>
+    </div>
     
 </body>
 </html>

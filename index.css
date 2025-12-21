@@ -115,13 +115,7 @@ body {
     align-items: center;
     margin-top: 24px;
 }
-#defiimg33 {
-    padding-right: 60px;
-}
-#defiimg34 {
-    padding-right: 300px;
 
-}
 @media screen and (max-width:900px){
     /* navbar */
     #navbar {
