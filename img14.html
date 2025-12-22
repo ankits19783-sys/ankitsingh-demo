@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        body {
+            background-color: #bf9fe9;
+        }
+        #navbar {
+            background-color: #b0e0e9;
+            height: 70px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        #navbar input {
+            height: 25px;
+            width: 200px;
+            padding-left: 10px;
+            border-radius: 5px;
+        }
+        #navbar a {
+            height: 40px;
+            width: 100px;
+            background-color: #e9a5a5;
+            text-decoration: none;
+            text-transform: capitalize;
+            font-weight: bold;
+            color: #000;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 7px;
+            transition-property: all;
+            transition-duration: 1s;
+
+        }
+        #navbar a:hover {
+            background-color: #b196e2;
+        }
+        #navbar button {
+            height: 27px;
+            width: 90px;
+        }
+        #main img {
+            height: 400px;
+
+        }
+        #img {
+            display: flex;
+            justify-content: center;
+            margin-top: 30px;
+        }
+
+        #defination  {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+
+        }
+        #defination p {
+            font-weight: 900;
+
+        }
+        #button {
+            display: flex;
+            justify-content: center;
+        }
+        #main #button button {
+            height: 40px;
+            width: 100px;
+            background-color: #b7e1e4;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+        
+
+  
+    </style>
+</head>
+<body>
+    <div id="cointener">
+        <div id="header">
+            <div id="navbar">
+                <a href="index.html">home page</a>
+            <form action="/hello.php">
+                <input type="text" placeholder="search">
+                <button>search</button>
+            </form>
+            </div>   
+        </div>
+        <div id="main">
+           <div id="img">
+             <img src = "https://rukminim2.flixcart.com/image/612/612/xif0q/t-shirt/w/z/w/xs-4mst3234-06-snitch-original-imahhhhchaccsnpk.jpeg?q=70" alt="cool img t-shirt">
+           </div>
+            <div id="defination">
+                <p>men's cool t-shirt </p>
+            </div>
+            <div id="button">
+                <a href="buy.html"><button>buy</button></a>
+            </div>
+        </div>
+        <div id="footer">
+
+        </div>
+    </div>
+    
+</body>
+</html>
