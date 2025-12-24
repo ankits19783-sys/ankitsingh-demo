@@ -41,9 +41,7 @@ body {
     border-radius: 5px;
     
 }
-#inp input:hover {
-    border: 2px solid transparent;
-}
+
 #inp button {
       height: 30px;
       width: 50px;
