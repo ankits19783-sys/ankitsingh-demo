@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
 }
 body {
     background-color: #ebc4a4;
@@ -54,6 +55,35 @@ body {
 }
 #inp button:hover {
     background-color: #fff;
+}
+.navbar_section {
+    height: 40px;
+    background-color: #2b2a2a;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.navbar_section_women a {
+    text-decoration: none;
+    color: #fff;
+}
+.navbar_section_women select {
+    width: 20px;
+}
+.navbar_section_men a {
+    text-decoration: none;
+    color: #fff;
+}
+.navbar_section_men select {
+    width: 20px;
+}
+.navbar_section_electronic a {
+     text-decoration: none;
+     color: #fff;
+
+}
+.navbar_section_electronic select {
+    width: 20px;
 }
            /* main */
 
