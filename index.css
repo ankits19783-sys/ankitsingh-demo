@@ -196,6 +196,37 @@ body {
         align-items: center;
 
     }
+    #img2 img {
+        height: 200px;
+        
+    }
+    #img2 {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 900px;
+        margin-top: 200px;
+
+    }
+    #img3 {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 900px;
+        margin-top: 200px;
+
+    }
+    #img1defination ,
+    #img2defination ,
+    #img3defination {
+        display: flex;
+        justify-content: space-evenly;
+        width: 900px;
+    }
+    #footer {
+        width: 900px;
+        text-align: center;
+    }
     
     
 
