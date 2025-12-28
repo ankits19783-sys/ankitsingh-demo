@@ -161,8 +161,6 @@ body {
         display: flex;
         justify-content: space-evenly;
         width: 900px;
-
-
     }
     #navbar a {
         height: 50px;
@@ -170,13 +168,10 @@ body {
         display: flex;
         align-items: center;
         align-items: center;
-
-
     }
     #inp input {
         width: 300px;
         height: 30px;
-
     }
     #img1 img {
         height: 200px;
@@ -188,6 +183,7 @@ body {
         display:flex;
         justify-content: space-around;
         align-items: center;
+        width: 900px;
 
     }
     #img1defination  {
@@ -214,7 +210,6 @@ body {
         align-items: center;
         width: 900px;
         margin-top: 200px;
-
     }
     #img1defination ,
     #img2defination ,
@@ -231,6 +226,7 @@ body {
         display: flex;
         justify-content: space-evenly;
         width: 900px;
+        height: 40px;
     }
     
     
