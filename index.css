@@ -4,13 +4,10 @@
     font-family: Arial, Helvetica, sans-serif;
     box-sizing: border-box;
 }
-body {
-    background-color: #ebc4a4;
-}
+
          /* header */
 #navbar {
     height: 80px;
-    background-color: #c1eec1;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -58,7 +55,7 @@ body {
 }
 .navbar_section {
     height: 40px;
-    background-color: #2b2a2a;
+    background-color: #6b6b6b;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -66,6 +63,7 @@ body {
 .navbar_section_women a {
     text-decoration: none;
     color: #fff;
+    font-weight: bold;
 }
 .navbar_section_women select {
     width: 20px;
@@ -73,6 +71,7 @@ body {
 .navbar_section_men a {
     text-decoration: none;
     color: #fff;
+     font-weight: bold;
 }
 .navbar_section_men select {
     width: 20px;
@@ -80,6 +79,7 @@ body {
 .navbar_section_electronic a {
      text-decoration: none;
      color: #fff;
+      font-weight: bold;
 
 }
 .navbar_section_electronic select {
