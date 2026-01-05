@@ -12,6 +12,14 @@
     justify-content: space-evenly;
     align-items: center;
 }
+.profile-contact {
+    font-size: 30px;
+    background-color: #fff;
+}
+.profile-aboutus {
+    font-size: 30px;
+    background-color: #fff;
+}
 #navbar a {
     height: 40px;
     width: 38px;
