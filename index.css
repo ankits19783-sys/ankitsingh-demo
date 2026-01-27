@@ -20,10 +20,10 @@
     font-size: 30px;
     background-color: #fff;
 }
+.profilelogo {
+    font-size: 30px;
+}
 #navbar a {
-    height: 40px;
-    width: 38px;
-    background-color: rgb(211, 211, 211);;
     color: #000;
     text-decoration: none;
     text-transform: capitalize;
@@ -32,13 +32,8 @@
     align-items: center;
     font-weight: bolder;
     border-radius: 15px;
-    transition-property: all;
-    transition-duration: 1.5s;
-    
 }
-#navbar a:hover {
-    background-color: #fff;
-}
+
 #inp input {
     padding-left: 10px;
     font-weight: bolder;
