@@ -189,3 +189,69 @@
     font-size: large;
   }
 }
+@media screen and (max-width: 600px) {
+
+  /* ---------- NAVBAR ---------- */
+  #navbar {
+    flex-direction: column;
+    gap: 10px;
+    height: auto;
+    padding: 10px 0;
+  }
+
+  #navbar a {
+    font-size: 14px;
+  }
+
+  #inp {
+    display: flex;
+    gap: 5px;
+  }
+
+  #inp input {
+    width: 160px;
+    height: 28px;
+  }
+
+  #inp button {
+    width: 40px;
+    height: 28px;
+  }
+
+  /* -------- CATEGORY BAR -------- */
+  .navbar_section {
+    flex-direction: column;
+    height: auto;
+    padding: 8px 0;
+    gap: 6px;
+  }
+
+  /* -------- PRODUCT SECTIONS -------- */
+  #img1,
+  #img2,
+  #img3 {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  #img1 img,
+  #img2 img,
+  #img3 img {
+    width: 90%;
+    max-width: 280px;
+    height: auto;
+  }
+
+  #img1defination,
+  #img2defination,
+  #img3defination {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  /* -------- FOOTER -------- */
+  #footer b {
+    font-size: 18px;
+  }
+}
+
