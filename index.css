@@ -32,6 +32,13 @@
     align-items: center;
     font-weight: bolder;
     border-radius: 15px;
+    transition-duration: 1.5ss;
+    transition-property: all;
+    height: 3rem;
+    width: 10rem;
+}
+#navbar a:hover {
+  background-color: #bce5d2;
 }
 
 #inp input {
@@ -89,7 +96,6 @@
     width: 20px;
 }
            /* main */
-
 #img1 img {
     height: 300px;
 
